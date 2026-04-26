@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" version="3.0.2" name="MathUtilsTest" time="0.083" tests="10" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" version="3.0.2" name="MathUtilsTest" time="0.217" tests="10" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.specification.version" value="25"/>
     <property name="sun.cpu.isalist" value="amd64"/>
@@ -15,7 +15,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="VN"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-25.0.2\bin"/>
-    <property name="sun.java.command" value="C:\Users\Minh\AppData\Local\Temp\surefire16907817192272466412\surefirebooter-20260427010221480_3.jar C:\Users\Minh\AppData\Local\Temp\surefire16907817192272466412 2026-04-27T01-02-21_338-jvmRun1 surefire-20260427010221480_1tmp surefire_0-20260427010221480_2tmp"/>
+    <property name="sun.java.command" value="C:\Users\Minh\AppData\Local\Temp\surefire634485997254215207\surefirebooter-20260427012231390_3.jar C:\Users\Minh\AppData\Local\Temp\surefire634485997254215207 2026-04-27T01-22-31_160-jvmRun1 surefire-20260427012231390_1tmp surefire_0-20260427012231390_2tmp"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="D:\laptrinhnangcao\25021895_VuHongMinh_Week9\Bai7\target\test-classes;D:\laptrinhnangcao\25021895_VuHongMinh_Week9\Bai7\target\classes;C:\Users\Minh\.m2\repository\ch\qos\logback\logback-classic\1.4.11\logback-classic-1.4.11.jar;C:\Users\Minh\.m2\repository\ch\qos\logback\logback-core\1.4.11\logback-core-1.4.11.jar;C:\Users\Minh\.m2\repository\org\slf4j\slf4j-api\2.0.9\slf4j-api-2.0.9.jar;C:\Users\Minh\.m2\repository\org\junit\jupiter\junit-jupiter\5.9.2\junit-jupiter-5.9.2.jar;C:\Users\Minh\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.9.2\junit-jupiter-api-5.9.2.jar;C:\Users\Minh\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\Minh\.m2\repository\org\junit\platform\junit-platform-commons\1.9.2\junit-platform-commons-1.9.2.jar;C:\Users\Minh\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\Minh\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.9.2\junit-jupiter-params-5.9.2.jar;C:\Users\Minh\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.9.2\junit-jupiter-engine-5.9.2.jar;C:\Users\Minh\.m2\repository\org\junit\platform\junit-platform-engine\1.9.2\junit-platform-engine-1.9.2.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
@@ -30,7 +30,7 @@
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="surefire.real.class.path" value="C:\Users\Minh\AppData\Local\Temp\surefire16907817192272466412\surefirebooter-20260427010221480_3.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\Minh\AppData\Local\Temp\surefire634485997254215207\surefirebooter-20260427012231390_3.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="25.0.2+10-LTS-69"/>
@@ -59,44 +59,44 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="69.0"/>
   </properties>
-  <testcase name="testDivide_positive" classname="MathUtilsTest" time="0.049">
-    <system-out><![CDATA[01:02:21.977 [main] INFO MathUtils -- Dividing
+  <testcase name="testDivide_positive" classname="MathUtilsTest" time="0.168">
+    <system-out><![CDATA[01:22:32.134 [main] INFO  MathUtils - Dividing
 ]]></system-out>
   </testcase>
-  <testcase name="testMax_maxVsMin" classname="MathUtilsTest" time="0.001">
-    <system-out><![CDATA[01:02:21.988 [main] INFO MathUtils -- Calculating max of a end b
+  <testcase name="testMax_maxVsMin" classname="MathUtilsTest" time="0.002">
+    <system-out><![CDATA[01:22:32.147 [main] INFO  MathUtils - Calculating max of a end b
 ]]></system-out>
   </testcase>
   <testcase name="testDivide_negative" classname="MathUtilsTest" time="0.001">
-    <system-out><![CDATA[01:02:21.989 [main] INFO MathUtils -- Dividing
+    <system-out><![CDATA[01:22:32.150 [main] INFO  MathUtils - Dividing
 ]]></system-out>
   </testcase>
   <testcase name="testDivide_byZero" classname="MathUtilsTest" time="0.002">
-    <system-out><![CDATA[01:02:21.991 [main] INFO MathUtils -- Dividing
+    <system-out><![CDATA[01:22:32.152 [main] INFO  MathUtils - Dividing
 ]]></system-out>
   </testcase>
   <testcase name="testMax_aEqualsB" classname="MathUtilsTest" time="0.001">
-    <system-out><![CDATA[01:02:21.993 [main] INFO MathUtils -- Calculating max of a end b
+    <system-out><![CDATA[01:22:32.155 [main] INFO  MathUtils - Calculating max of a end b
 ]]></system-out>
   </testcase>
   <testcase name="testMax_withMaxValue" classname="MathUtilsTest" time="0.001">
-    <system-out><![CDATA[01:02:21.995 [main] INFO MathUtils -- Calculating max of a end b
+    <system-out><![CDATA[01:22:32.157 [main] INFO  MathUtils - Calculating max of a end b
 ]]></system-out>
   </testcase>
-  <testcase name="testMax_minVsMax" classname="MathUtilsTest" time="0.001">
-    <system-out><![CDATA[01:02:21.998 [main] INFO MathUtils -- Calculating max of a end b
+  <testcase name="t" classname="MathUtilsTest" time="0.001">
+    <system-out><![CDATA[01:22:32.158 [main] INFO  MathUtils - Calculating max of a end b
+]]></system-out>
+  </testcase>
+  <testcase name="testMax_minVsMax" classname="MathUtilsTest" time="0.003">
+    <system-out><![CDATA[01:22:32.162 [main] INFO  MathUtils - Calculating max of a end b
 ]]></system-out>
   </testcase>
   <testcase name="testMax_aLessThanB" classname="MathUtilsTest" time="0.001">
-    <system-out><![CDATA[01:02:21.999 [main] INFO MathUtils -- Calculating max of a end b
+    <system-out><![CDATA[01:22:32.166 [main] INFO  MathUtils - Calculating max of a end b
 ]]></system-out>
   </testcase>
-  <testcase name="testMax_aGreaterThanB" classname="MathUtilsTest" time="0.0">
-    <system-out><![CDATA[01:02:22.002 [main] INFO MathUtils -- Calculating max of a end b
-]]></system-out>
-  </testcase>
-  <testcase name="testMax_withMinValue" classname="MathUtilsTest" time="0.001">
-    <system-out><![CDATA[01:02:22.004 [main] INFO MathUtils -- Calculating max of a end b
+  <testcase name="testMax_withMinValue" classname="MathUtilsTest" time="0.002">
+    <system-out><![CDATA[01:22:32.169 [main] INFO  MathUtils - Calculating max of a end b
 ]]></system-out>
   </testcase>
 </testsuite>
